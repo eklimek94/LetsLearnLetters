@@ -1,4 +1,4 @@
 # LetsLearnLetters
 Letter Learning game for young children.
 
-![screenshot](/screenshot_lets_learn_letters_1.png)
+![screenshot](/Screen Shot 2019-04-04 at 6.42.36 PM.png)
