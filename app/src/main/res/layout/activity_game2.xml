@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".Game2Activity">
 
-    <TextView
-        android:id="@+id/textview"
+    <peppersapplications.com.letslearnletters.Game2Canvas
+        android:id="@+id/game2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Game 2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        android:background="@drawable/backgroundimagechalk_a">
 
+    </peppersapplications.com.letslearnletters.Game2Canvas>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>

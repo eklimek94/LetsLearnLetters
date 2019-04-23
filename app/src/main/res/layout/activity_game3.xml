@@ -1,25 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Game3Activity">
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Game3Activity"
+    android:background="@drawable/backgroundimagechalk">
 
+    <TextView
+        android:id="@+id/question_helper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="48dp"
+        android:text="@string/QuestionHelper"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
 
 
     <TextView
-        android:id="@+id/textview"
+        android:id="@+id/question_text_view"
+        android:padding="72dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Game 3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="10dp"
+        android:foreground="@drawable/backgroundimagechalk_a"
+        android:background="@color/colorAccent"
         />
 
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickTrue"
+            android:padding="40dp"
+            android:layout_marginRight="4dp"
+            android:foreground="@drawable/button_apple"
+            android:text="@string/true_button"/>
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickFalse"
+            android:layout_marginLeft="4dp"
+            android:padding="40dp"
+
+            android:foreground="@drawable/button_ball"
+            android:text="@string/false_button"/>
+
+    </LinearLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

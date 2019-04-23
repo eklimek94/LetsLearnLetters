@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">Let\'s Learn Letters</string>
+    <string name="question_australia">Canberra is the capital of Australia.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="back_button">Previous Question</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <string name="first_question_alert">First Question</string>
+
+    <string name="QuestionHelper">Which Picture Begins with the letter: </string>
+
+    <string name="blank_string_1"> </string>
+    <string name="blank_string_2"> </string>
+    <string name="blank_string_3"> </string>
+    <string name="blank_string_4"> </string>
+    <string name="blank_string_5"> </string>
+    <string name="blank_string_6"> </string>
+    <string name="blank_string_7"> </string>
+    <string name="blank_string_8"> </string>
+    <string name="blank_string_9"> </string>
+    <string name="blank_string_10"> </string>
+    <string name="blank_string_11"> </string>
+    <string name="blank_string_12"> </string>
+    <string name="blank_string_13"> </string>
+    <string name="blank_string_14"> </string>
+    <string name="blank_string_15"> </string>
+    <string name="blank_string_16"> </string>
+    <string name="blank_string_17"> </string>
+    <string name="blank_string_18"> </string>
+    <string name="blank_string_19"> </string>
+    <string name="blank_string_20"> </string>
+    <string name="blank_string_21"> </string>
+    <string name="blank_string_22"> </string>
+    <string name="blank_string_23"> </string>
+    <string name="blank_string_24"> </string>
+    <string name="blank_string_25"> </string>
+    <string name="blank_string_26"> </string>
 </resources>

@@ -1,24 +1,24 @@
 package peppersapplications.com.letslearnletters;
 
+
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.*;
 import android.util.*;
 import android.view.*;
 
-import java.util.ArrayList;
 
-
-public class Game1Canvas extends View {
+public class Game2Canvas extends View {
     private Paint myPaint;
     private Bitmap mBitmap;
     private Canvas mCanvas;
     private Paint mBitmapPaint = new Paint(Paint.DITHER_FLAG);
 
-    public Game1Canvas(Context context) {
+    public Game2Canvas(Context context) {
         this(context, null);
     }
 
-    public Game1Canvas(Context context, AttributeSet attrs) {
+    public Game2Canvas(Context context, AttributeSet attrs) {
         super(context, attrs);
         myPaint = new Paint();
         myPaint.setAntiAlias(true);
@@ -54,7 +54,7 @@ public class Game1Canvas extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         canvas.save();
-        mCanvas.drawColor(Color.WHITE);
+        mCanvas.drawColor(Color.TRANSPARENT);
         mCanvas.drawPath(path, myPaint);
 
 

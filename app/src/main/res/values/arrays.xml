@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="trace_letters">
+        <item>@drawable/backgroundimagechalk_a</item>
+        <item>@drawable/backgroundimagechalk_b</item>
+        <item>@drawable/backgroundimagechalk_c</item>
+        <item>@drawable/backgroundimagechalk_d</item>
+        <item>@drawable/backgroundimagechalk_e</item>
+        <item>@drawable/backgroundimagechalk_f</item>
+        <item>@drawable/backgroundimagechalk_g</item>
+        <item>@drawable/backgroundimagechalk_h</item>
+        <item>@drawable/backgroundimagechalk_i</item>
+        <item>@drawable/backgroundimagechalk_j</item>
+        <item>@drawable/backgroundimagechalk_k</item>
+        <item>@drawable/backgroundimagechalk_l</item>
+        <item>@drawable/backgroundimagechalk_m</item>
+        <item>@drawable/backgroundimagechalk_n</item>
+        <item>@drawable/backgroundimagechalk_o</item>
+        <item>@drawable/backgroundimagechalk_p</item>
+        <item>@drawable/backgroundimagechalk_q</item>
+        <item>@drawable/backgroundimagechalk_r</item>
+        <item>@drawable/backgroundimagechalk_s</item>
+        <item>@drawable/backgroundimagechalk_t</item>
+        <item>@drawable/backgroundimagechalk_u</item>
+        <item>@drawable/backgroundimagechalk_v</item>
+        <item>@drawable/backgroundimagechalk_w</item>
+        <item>@drawable/backgroundimagechalk_x</item>
+        <item>@drawable/backgroundimagechalk_y</item>
+        <item>@drawable/backgroundimagechalk_z</item>
+    </integer-array>
+
+
+</resources>

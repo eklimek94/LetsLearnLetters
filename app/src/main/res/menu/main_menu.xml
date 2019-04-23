@@ -1,10 +1,22 @@
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="peppersapplications.com.actionbar.MainActivity">
+    android:theme="@style/MyTheme"
+    app:popupTheme="@style/MyTheme">
+
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="settings"
-        app:showAsAction="never" />
+        android:id="@+id/left_arrow"
+        android:title="Left Arrow"
+        app:showAsAction="always"
+        android:icon="@mipmap/left_arrow"
+        />
+
+    <item
+        android:id="@+id/right_arrow"
+        android:title="Right Arrow"
+        app:showAsAction="always"
+        android:icon="@mipmap/right_arrow"
+        />
+
+
 </menu>

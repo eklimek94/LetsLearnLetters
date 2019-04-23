@@ -4,13 +4,15 @@
     android:id="@+id/activity_game1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgroundimagechalk"
+
     tools:context=".Game1Activity">
 
     <peppersapplications.com.letslearnletters.Game1Canvas
         android:id="@+id/game1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:foreground="@mipmap/a_image_foreground">
+        android:foreground="@drawable/backgroundimagechalk_a">
 
     </peppersapplications.com.letslearnletters.Game1Canvas>
 
