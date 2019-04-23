@@ -12,7 +12,7 @@ The inital activity provides a assisted guided drawing space to practice drawing
 
 ![screenshot](/Screenshot_lets_learn_letters_3.png)
 
-The second activity provides a unassisted guided drawing space to practice drawing letters. 
+The second activity provides a unguided drawing space to practice drawing letters. 
 
 
 ![screenshot](/Screenshot_lets_learn_letters_4.png)
